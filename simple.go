@@ -16,7 +16,7 @@ type timeRFC3339NanoFormatter struct {
 const maxFormattedTimeLength = 30
 
 // NewTimeRFC3339NanoFormatter -
-func NewTimeRFC3339NanoFormatter(logger logging.Logger) logging.Logger {
+func NewTimeRFC3339NanoFormatter() logging.Logger {
 	return &timeRFC3339NanoFormatter{
 		timeFormatter: time.RFC3339Nano,
 	}
