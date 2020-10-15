@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	logging "github.com/codemodify/systemkit-logging"
+	logging "github.com/remoteit/systemkit-logging"
 )
 
 type timeRFC3339NanoFormatter struct {
